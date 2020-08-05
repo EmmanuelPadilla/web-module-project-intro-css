@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Roboto+Mono:wght@100&display=swap');
+
+
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+
+border:1px solid gray;
+}
+/*general styles*/
+*{
+box-sizing:border-box;
+}
+html{
+    font-size:62.5%
+}
+body{
+    line-height:2;
+    font-size:1.5rem;
+    font-family:'Roboto Mono', monospace;
+ }   
+ 
+ h1{
+    font-family: 'Chelsea Market', cursive;
+ }
+.logo{
+    max-width:25%;
+    display:inline-block;
+}
+.logo img{
+    
+    max-width: 100%;
+    border-radius: 50%;
+    
+    
+}
+
+    
+}
+.title h1{
+    display:inline-block:
+    
+    width 10%;
+
+}
+
+
+.tagline{
+    display:inline-block;
+    margin:auto;
+    width: 50%;
+    padding: 1%;
+}
+
+
+.main{
+    display:block;
+    margin: 0 auto;
+}
+
+.fire{
+    display:block;
+    margin:auto;
+    width:30%;
+    text-align: center;
+}
+
+.parking{
+    display:block;
+    margin: auto;
+    width:30%;
+    text-align: center;
+}
+
+.attention{
+    font-weight:bold ;
+}
+
+/*picture resize*/
+
+
+
+.fire img{
+    object-fit: contain;
+
+}
+
+.main{
+    background-color: #DDB9A3;
+    padding:5rem;
+}
+
+
+
+/*footer*/
+
+footer img {
+    height: 250px;
+    object-fit: cover;
+    object-position: 100% 0;
+    width: 100%;
+  }
+    
+}
+}
+/*buttons*/
+
+.links{
+
+}
+
+.plan{
+  margin: 10px 10px;
+  border: 1px solid lightgray;
+  padding: 20px;
+  display: inline-block;
+  border-radius: 20px;
+  color: white;
+  text-decoration: none;
+  margin-bottom: 20px;
+  background: #FF764E;
+}
+
+.learn{
+    margin: 10px 10px;
+    border: 1px solid lightgray;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 20px;
+    background: #5ED3EB;
+
+}
+
+.involved{
+    margin: 10px 10px;
+    border: 1px solid lightgray;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 20px;
+    background: #FFCD69;
+}
+
